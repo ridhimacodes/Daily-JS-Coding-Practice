@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.bodycontainer{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(225, 224, 224);
+}
+.maincontainer{
+    display: flex;
+flex-direction: column;
+    gap:1.3em;
+height: 27em ;
+width: 20em;
+background-color:white;
+padding: 2em;
+
+}
+.subjects{
+    display: flex;
+  flex-direction: column;
+   gap:1em;
+   font-size:18px;
+}
+
+button{
+    padding: 0.5em;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pass {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
